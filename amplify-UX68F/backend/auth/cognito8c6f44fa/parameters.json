@@ -1,22 +1,4 @@
 {
-    "authRoleName": {
-        "Ref": "AuthRoleName"
-    },
-    "unauthRoleName": {
-        "Ref": "UnauthRoleName"
-    },
-    "authRoleArn": {
-        "Fn::GetAtt": [
-            "AuthRole",
-            "Arn"
-        ]
-    },
-    "unauthRoleArn": {
-        "Fn::GetAtt": [
-            "UnauthRole",
-            "Arn"
-        ]
-    },
     "identityPoolName": "cognito8c6f44fa_identitypool_8c6f44fa",
     "allowUnauthenticatedIdentities": false,
     "thirdPartyAuth": false,
@@ -67,7 +49,9 @@
     "userpoolClientSetAttributes": false,
     "useDefault": "default",
     "unAuthRoleName": "approk-20181212205256-unauthRole",
+    "authRoleName": "approk-20181212205256-authRole",
     "unAuthRoleArn": "arn:aws:iam::104234874083:role/approk-20181212205256-unauthRole",
+    "authRoleArn": "arn:aws:iam::104234874083:role/approk-20181212205256-authRole",
     "resourceName": "cognito8c6f44fa",
     "authSelections": "identityPoolAndUserPool"
 }
