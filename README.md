@@ -1,4 +1,4 @@
-# appGrok
+# Grok App
 Welcome the the Grok App! The mobile app designed to help you share and store digitally made business cards. 
 
 ## Login
